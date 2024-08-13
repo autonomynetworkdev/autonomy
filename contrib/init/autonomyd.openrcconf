@@ -1,0 +1,33 @@
+# /etc/conf.d/autonomyd: config file for /etc/init.d/autonomyd
+
+# Config file location
+#BLACKMORED_CONFIGFILE="/etc/autonomy/autonomy.conf"
+
+# What directory to write pidfile to?  (created and owned by $BLACKMORED_USER)
+#BLACKMORED_PIDDIR="/var/run/autonomyd"
+
+# What filename to give the pidfile
+#BLACKMORED_PIDFILE="${BLACKMORED_PIDDIR}/autonomyd.pid"
+
+# Where to write autonomyd data (be mindful that the blockchain is large)
+#BLACKMORED_DATADIR="/var/lib/autonomyd"
+
+# User and group to own autonomyd process
+#BLACKMORED_USER="autonomy"
+#BLACKMORED_GROUP="autonomy"
+
+# Path to autonomyd executable
+#BLACKMORED_BIN="/usr/bin/autonomyd"
+
+# Nice value to run autonomyd under
+#BLACKMORED_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BLACKMORED_OPTS=""
+
+# The timeout in seconds OpenRC will wait for autonomyd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BLACKMORED_SIGTERM_TIMEOUT=600
