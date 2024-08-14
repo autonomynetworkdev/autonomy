@@ -3,6 +3,9 @@ AUTONOMY
 
 https://autonomynetwork.org
 
+seed nodes: 149.28.43.7
+            45.63.53.39
+
 What is AUTONOMY?
 ----------------
 
