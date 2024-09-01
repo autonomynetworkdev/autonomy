@@ -160,6 +160,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
+        vSeeds.push_back(CDNSSeedData("seed1", "149.28.43.7"));
+        vSeeds.push_back(CDNSSeedData("seed2", "45.63.53.39"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,24);
