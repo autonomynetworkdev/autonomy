@@ -113,7 +113,7 @@ public:
         consensus.nProtocolV2Time = 1723565111;
         consensus.nProtocolV3Time = 1723565112;
         consensus.nProtocolV3_1Time = 4102437600;
-        consensus.nLastPOWBlock = 1000;
+        consensus.nLastPOWBlock = 1000000;
         consensus.nStakeTimestampMask = 0xf; // 15
         consensus.nCoinbaseMaturity = 20;
 
